@@ -1,0 +1,12 @@
+
+/* Class = "UINavigationItem"; title = "Candidatos"; ObjectID = "MRF-eh-oKf"; */
+"MRF-eh-oKf.title" = "Candidatos";
+
+/* Class = "UISearchBar"; V8Q-dy-fkF.scopeButtonTitles[0] = "Nome candidato"; ObjectID = "V8Q-dy-fkF"; */
+"V8Q-dy-fkF.scopeButtonTitles[0]" = "Nome candidato";
+
+/* Class = "UISearchBar"; V8Q-dy-fkF.scopeButtonTitles[1] = "Nome de urna"; ObjectID = "V8Q-dy-fkF"; */
+"V8Q-dy-fkF.scopeButtonTitles[1]" = "Nome de urna";
+
+/* Class = "UITableViewController"; title = "Busca"; ObjectID = "qjO-qs-Msy"; */
+"qjO-qs-Msy.title" = "Busca";

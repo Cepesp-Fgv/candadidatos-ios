@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7828EE2E2061D6800040D03A /* CandidatoDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7828EE2D2061D6800040D03A /* CandidatoDetailTableViewController.swift */; };
+		7828EE302061E3330040D03A /* logoCepespData.png in Resources */ = {isa = PBXBuildFile; fileRef = 7828EE2F2061E3330040D03A /* logoCepespData.png */; };
+		78584233204F165A00E4C608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78584232204F165A00E4C608 /* AppDelegate.swift */; };
+		78584235204F165A00E4C608 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78584234204F165A00E4C608 /* ViewController.swift */; };
+		78584238204F165A00E4C608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78584236204F165A00E4C608 /* Main.storyboard */; };
+		7858423A204F165A00E4C608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78584239204F165A00E4C608 /* Assets.xcassets */; };
+		7858423D204F165A00E4C608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7858423B204F165A00E4C608 /* LaunchScreen.storyboard */; };
+		78584245204F184800E4C608 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78584244204F184800E4C608 /* SearchTableViewController.swift */; };
+		78584247204F187400E4C608 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 78584246204F187400E4C608 /* Podfile */; };
+		78B43B59204FAC0A008CCAD2 /* CandidatoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B43B58204FAC0A008CCAD2 /* CandidatoTableViewController.swift */; };
+		C702DA59A57260307959FFB4 /* Pods_CepespApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C39C1129321C791264E1819 /* Pods_CepespApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C39C1129321C791264E1819 /* Pods_CepespApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CepespApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7828EE2D2061D6800040D03A /* CandidatoDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidatoDetailTableViewController.swift; sourceTree = "<group>"; };
+		7828EE2F2061E3330040D03A /* logoCepespData.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoCepespData.png; sourceTree = "<group>"; };
+		7858422F204F165A00E4C608 /* CepespApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CepespApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78584232204F165A00E4C608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78584234204F165A00E4C608 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78584237204F165A00E4C608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78584239204F165A00E4C608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7858423C204F165A00E4C608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7858423E204F165A00E4C608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78584244204F184800E4C608 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		78584246204F187400E4C608 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		78584248204F1AD900E4C608 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		78584249204F1AD900E4C608 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		78B43B58204FAC0A008CCAD2 /* CandidatoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidatoTableViewController.swift; sourceTree = "<group>"; };
+		8CCB1B429A4AC846B02664C7 /* Pods-CepespApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CepespApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CepespApp/Pods-CepespApp.release.xcconfig"; sourceTree = "<group>"; };
+		F86CE23AEBC488869D47785D /* Pods-CepespApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CepespApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CepespApp/Pods-CepespApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7858422C204F165A00E4C608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C702DA59A57260307959FFB4 /* Pods_CepespApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BA04863234F5C74648A5A28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C39C1129321C791264E1819 /* Pods_CepespApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19D852730A73DED86222F1E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F86CE23AEBC488869D47785D /* Pods-CepespApp.debug.xcconfig */,
+				8CCB1B429A4AC846B02664C7 /* Pods-CepespApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		78584226204F165A00E4C608 = {
+			isa = PBXGroup;
+			children = (
+				78584246204F187400E4C608 /* Podfile */,
+				78584231204F165A00E4C608 /* CepespApp */,
+				78584230204F165A00E4C608 /* Products */,
+				19D852730A73DED86222F1E6 /* Pods */,
+				0BA04863234F5C74648A5A28 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		78584230204F165A00E4C608 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7858422F204F165A00E4C608 /* CepespApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78584231204F165A00E4C608 /* CepespApp */ = {
+			isa = PBXGroup;
+			children = (
+				78B43B58204FAC0A008CCAD2 /* CandidatoTableViewController.swift */,
+				78584244204F184800E4C608 /* SearchTableViewController.swift */,
+				7828EE2F2061E3330040D03A /* logoCepespData.png */,
+				78584232204F165A00E4C608 /* AppDelegate.swift */,
+				78584234204F165A00E4C608 /* ViewController.swift */,
+				78584236204F165A00E4C608 /* Main.storyboard */,
+				78584239204F165A00E4C608 /* Assets.xcassets */,
+				7858423B204F165A00E4C608 /* LaunchScreen.storyboard */,
+				7858423E204F165A00E4C608 /* Info.plist */,
+				7828EE2D2061D6800040D03A /* CandidatoDetailTableViewController.swift */,
+			);
+			path = CepespApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7858422E204F165A00E4C608 /* CepespApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78584241204F165A00E4C608 /* Build configuration list for PBXNativeTarget "CepespApp" */;
+			buildPhases = (
+				3E1560718133941281A2E3D2 /* [CP] Check Pods Manifest.lock */,
+				7858422B204F165A00E4C608 /* Sources */,
+				7858422C204F165A00E4C608 /* Frameworks */,
+				7858422D204F165A00E4C608 /* Resources */,
+				C9C337C5E7EF6DA1283AC75B /* [CP] Embed Pods Frameworks */,
+				67D17F9BB7F1CC189D33E138 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CepespApp;
+			productName = CepespApp;
+			productReference = 7858422F204F165A00E4C608 /* CepespApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78584227204F165A00E4C608 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = urbbox;
+				TargetAttributes = {
+					7858422E204F165A00E4C608 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7858422A204F165A00E4C608 /* Build configuration list for PBXProject "CepespApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = 78584226204F165A00E4C608;
+			productRefGroup = 78584230204F165A00E4C608 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7858422E204F165A00E4C608 /* CepespApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7858422D204F165A00E4C608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7858423D204F165A00E4C608 /* LaunchScreen.storyboard in Resources */,
+				7858423A204F165A00E4C608 /* Assets.xcassets in Resources */,
+				7828EE302061E3330040D03A /* logoCepespData.png in Resources */,
+				78584247204F187400E4C608 /* Podfile in Resources */,
+				78584238204F165A00E4C608 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E1560718133941281A2E3D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CepespApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67D17F9BB7F1CC189D33E138 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CepespApp/Pods-CepespApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9C337C5E7EF6DA1283AC75B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CepespApp/Pods-CepespApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Mixpanel-swift/Mixpanel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mixpanel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CepespApp/Pods-CepespApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7858422B204F165A00E4C608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7828EE2E2061D6800040D03A /* CandidatoDetailTableViewController.swift in Sources */,
+				78584235204F165A00E4C608 /* ViewController.swift in Sources */,
+				78584245204F184800E4C608 /* SearchTableViewController.swift in Sources */,
+				78584233204F165A00E4C608 /* AppDelegate.swift in Sources */,
+				78B43B59204FAC0A008CCAD2 /* CandidatoTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		78584236204F165A00E4C608 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78584237204F165A00E4C608 /* Base */,
+				78584248204F1AD900E4C608 /* pt-BR */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7858423B204F165A00E4C608 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7858423C204F165A00E4C608 /* Base */,
+				78584249204F1AD900E4C608 /* pt-BR */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7858423F204F165A00E4C608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78584240204F165A00E4C608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78584242204F165A00E4C608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F86CE23AEBC488869D47785D /* Pods-CepespApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LEU2Y59M66;
+				INFOPLIST_FILE = CepespApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.urbbox.CepespApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78584243204F165A00E4C608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CCB1B429A4AC846B02664C7 /* Pods-CepespApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LEU2Y59M66;
+				INFOPLIST_FILE = CepespApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.urbbox.CepespApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7858422A204F165A00E4C608 /* Build configuration list for PBXProject "CepespApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7858423F204F165A00E4C608 /* Debug */,
+				78584240204F165A00E4C608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78584241204F165A00E4C608 /* Build configuration list for PBXNativeTarget "CepespApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78584242204F165A00E4C608 /* Debug */,
+				78584243204F165A00E4C608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78584227204F165A00E4C608 /* Project object */;
+}
