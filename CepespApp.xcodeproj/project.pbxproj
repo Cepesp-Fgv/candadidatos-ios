@@ -91,6 +91,7 @@
 		78584231204F165A00E4C608 /* CepespApp */ = {
 			isa = PBXGroup;
 			children = (
+				7828EE2D2061D6800040D03A /* CandidatoDetailTableViewController.swift */,
 				78B43B58204FAC0A008CCAD2 /* CandidatoTableViewController.swift */,
 				78584244204F184800E4C608 /* SearchTableViewController.swift */,
 				7828EE2F2061E3330040D03A /* logoCepespData.png */,
@@ -100,7 +101,6 @@
 				78584239204F165A00E4C608 /* Assets.xcassets */,
 				7858423B204F165A00E4C608 /* LaunchScreen.storyboard */,
 				7858423E204F165A00E4C608 /* Info.plist */,
-				7828EE2D2061D6800040D03A /* CandidatoDetailTableViewController.swift */,
 			);
 			path = CepespApp;
 			sourceTree = "<group>";

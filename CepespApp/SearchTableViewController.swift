@@ -78,7 +78,7 @@ class SearchTableViewController: UITableViewController, UISearchBarDelegate, UIS
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        load(q:"Lula da silva")
+//        load(q:"-")
     }
     
     func load(q query:String){
